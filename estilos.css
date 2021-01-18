@@ -1,0 +1,115 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+.padre{
+	display: flex;
+	flex-flow: column nowrap;
+
+}
+.header{
+	background: url(imagenes/i2.jpg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+	display: flex;
+	flex-flow: column nowrap;
+}
+    .menu{
+      	background: #0D265A;
+      	display: flex;
+      	flex-flow: nowrap;
+      	height: 100px;
+      	align-items: center;
+      }
+           .logo{
+           	
+           	flex: 1 1 auto;
+           }
+           .img{
+            height:80px;
+          
+
+           }
+           .nav{
+           	background: #0D265A;
+           	flex: 1 1 auto;
+           }
+              .nav a{
+                color: #fff;
+                font-size: 30px;
+                text-transform: uppercase;
+                padding: 0 10px;
+                letter-spacing: 2px;
+              }
+              .nav a:hover{
+                color: #6ACF24;
+
+              }
+           
+    .texto-principal{
+      display: flex;
+      align-items: center;
+    }
+        h2{
+        	font-family: 'lora',serif;
+          font-size: 50px;
+          color: #000;
+          font-weight: 300; 
+          line-height: 1,6;
+          height: 500px;
+          text-align: center;
+                    
+        }
+.section{
+	background: #000;
+	display: flex;
+
+}
+    .articulos{
+    	background: #D1D8D8;
+    	flex: auto;
+    	display: flex;
+    	flex-flow: row wrap;
+      width: 60%;
+      padding: 30px;
+    	
+    }
+        .article{
+        	background: #EFF5F5;
+        	flex:auto;
+          padding: 30px;  
+        }
+        h3{
+          font-size: 13px;
+          padding: 10px 0;
+
+        }
+        .letra{
+          font-size: 30px;
+        }
+        .imag{
+          width: 100%;
+        }
+    .aside{
+    	background: #fff;
+    	flex:1 1 auto;
+
+    }
+        
+       
+.footer{
+	background: #85878C;
+	display: flex;
+	justify-content: center;
+}
+    .pie{
+    	background: #85878C;
+    	width: 300px;
+      color: #fff;
+
+    }
